@@ -48,7 +48,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
 
 # Menu Configuration
 [[menu.main]]
-  weight = 1
+  weight = 1.5
   identifier = "inicio"
   name = "Inicio"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
@@ -76,7 +76,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
   identifier = "sobre"
   name = "Sobre R-Esp"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
+  url = "/2018/06/sobre-el-blog/"
 
 [[menu.links]]
   weight = 1
@@ -159,7 +159,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/erre.png"
 
   # Header configuration
   # The link at the right of the header is customizable
@@ -171,7 +171,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
 
   # Display `Next` on left side of the pagination, and `Prev` on right side one.
   # If you set this value to `true`, these positions swap.
-  # swapPaginator = true
+  swapPaginator = true
 
   # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
   # they have to be referred from static root. Example
@@ -205,7 +205,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/#about"
+    url = "/"
 
   # Customize link of author avatar in sidebar
   # [params.sidebar.profile]

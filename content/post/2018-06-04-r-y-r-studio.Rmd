@@ -1,5 +1,5 @@
 ---
-title: R y RStudio
+title: R y RStudio para Sciencia de los Datos
 author: J.C. Villaseñor-Derbez
 date: '2018-06-14'
 output:
