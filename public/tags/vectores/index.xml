@@ -1,25 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Vectores on Erre</title>
-    <link>https://erre-esp.org/tags/vectores/</link>
-    <description>Recent content in Vectores on Erre</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>sp-mx</language>
-    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://erre-esp.org/tags/vectores/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Guardando valores: variables, vectores, matrices, listas y tablas de datos</title>
-      <link>https://erre-esp.org/2018/10/operaciones-basicas/</link>
-      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://erre-esp.org/2018/10/operaciones-basicas/</guid>
-      <description>Asignación de valoresAtributosEn el post anterior hablamos sobre R y RStudio, con una introducción a los scripts y documentos de rmarkdown y el uso de proyectos de RStudio para mantener nuestro código ordenado. En este post nos adentraremos más en el uso de R. En concreto, aprenderemos como almacenar valores y datos en objetos en R.
-Asignación de valoresEn la sección de scripts del post anterior habíamos almacenado valores en una variable llamada num.</description>
-    </item>
-    
-  </channel>
-</rss>
