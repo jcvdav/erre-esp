@@ -49,13 +49,8 @@ En esta sección verás los temas que cubriré en la primera sección. Muy proba
 
 - Colaborando con Git y GitHub 
 
-</ul>
-</div>
-<div class = "col-md-6">
-
 ## Programación aplicada
 
-<ul>
 - Modelación numérica con <code>deSolve</code> 
 
 - <code>rmarkdown</code> avanzado 
