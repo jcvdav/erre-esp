@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Erre</title>
+    <link>https://erre-esp.org/post/</link>
+    <description>Recent content in Posts on Erre</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sp-mx</language>
+    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://erre-esp.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guardando valores: variables, vectores, matrices, listas y tablas de datos</title>
+      <link>https://erre-esp.org/2018/10/operaciones-basicas/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erre-esp.org/2018/10/operaciones-basicas/</guid>
+      <description>Asignación de valoresAtributosEn el post anterior hablamos sobre R y RStudio, con una introducción a los scripts y documentos de rmarkdown y el uso de proyectos de RStudio para mantener nuestro código ordenado. En este post nos adentraremos más en el uso de R. En concreto, aprenderemos como almacenar valores y datos en objetos en R.
+Asignación de valoresEn la sección de scripts del post anterior habíamos almacenado valores en una variable llamada num.</description>
+    </item>
+    
+    <item>
+      <title>R y RStudio</title>
+      <link>https://erre-esp.org/2018/06/r-y-r-studio/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://erre-esp.org/2018/06/r-y-r-studio/</guid>
+      <description>El ambiente de trabajo en RStudioInvestigación reproducibleProyectos de RStudioDistribución de códigoScriptsDocumentos de rmarkdownPaquetes en R: base, stats y otros másConclusionesEste es el primer post de ERRE. Antes de comenzar a escribir código, creo que es necesario establecer bases sólidas que nos permitan aprovechar R al máximo. En este post hablaremos sobre las generalidades de R y RStudio y las ventajas de trabajar en este ambiente.</description>
+    </item>
+    
+  </channel>
+</rss>
