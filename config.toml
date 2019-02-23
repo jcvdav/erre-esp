@@ -13,8 +13,8 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://erre-esp.org/"
-languageCode = "sp-mx"
-defaultContentLanguage = "sp-mx"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "Erre"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
