@@ -89,7 +89,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "README.md"]
   identifier = "stackoverflow"
   name = "Stack Overflow"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
+  url = "https://stackoverflow.com/users/6828809/juan-carlos-villaseñor-derbez"
 
 [[menu.misc]]
   weight = 1
