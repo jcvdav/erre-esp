@@ -12,17 +12,19 @@ header:
   image: ""
 ---
 
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 <div id="TOC">
 <ul>
 <li><a href="#el-ambiente-de-trabajo-en-rstudio">El ambiente de trabajo en RStudio</a></li>
-<li><a href="#investigacion-reproducible">Investigación reproducible</a></li>
+<li><a href="#investigación-reproducible">Investigación reproducible</a></li>
 <li><a href="#proyectos-de-rstudio">Proyectos de RStudio</a></li>
-<li><a href="#distribucion-de-codigo">Distribución de código</a><ul>
+<li><a href="#distribución-de-código">Distribución de código</a>
+<ul>
 <li><a href="#scripts">Scripts</a></li>
 <li><a href="#documentos-de-rmarkdown">Documentos de <code>rmarkdown</code></a></li>
 </ul></li>
-<li><a href="#paquetes-en-r-base-stats-y-otros-mas">Paquetes en R: <code>base</code>, <code>stats</code> y otros más</a></li>
+<li><a href="#paquetes-en-r-base-stats-y-otros-más">Paquetes en R: <code>base</code>, <code>stats</code> y otros más</a></li>
 <li><a href="#conclusiones">Conclusiones</a></li>
 </ul>
 </div>
@@ -49,7 +51,7 @@ header:
 </ul>
 <p>RStudio también te permite modificar el ambiente de trabajo. Puedes mover la posición de los páneles o modificar los esquemas de colores y el tamaño de fuente. Todas estas características las puedes explorar en la pestaña de <code>Herramientas</code>, bajo la sección de <code>Opciones globales</code> y <code>Opciones de proyecto</code>.</p>
 </div>
-<div id="investigacion-reproducible" class="section level1">
+<div id="investigación-reproducible" class="section level1">
 <h1>Investigación reproducible</h1>
 <p>Es importante que nuestros análisis y resultados puedan ser reproducidos y corroborados. Uno de los grandes avances de la humanidad es la capacidad de comunicar información por medio del lenguaje escrito, pues deja un legado que no requiere ser pasado de “boca en boca”. Escribir código nos permite comunicar nuestros procedimientos y contar una historia, pues el código no es más que texto. Aunque tiene su propia estructura, el código no es más que texto que puede ser comprendido por computadoras y humanos al mismo tiempo. Por ejemplo, el siguiente código es muy obvio para humanos y computadoras:</p>
 <pre class="r"><code>2 + 2</code></pre>
@@ -62,7 +64,7 @@ header:
 <div id="proyectos-de-rstudio" class="section level1">
 <h1>Proyectos de RStudio</h1>
 <p>Utilizar proyectos en R es una de las mejores formas de mantener un ambiente de trabajo ordenado. El proyecto mantiene un directorio de trabajo estable, donde mantenemos nuestros archivos asociados. El directorio de trabajo no es más que la localización de todos los archivos y carpetas. El comando <code>getwd()</code> (<em>get working directory</em>) te mostrará el directorio de trabajo. Si es la primera vez que abres RStudio o estás fuera de un proyecto, puede que el resultado sea:</p>
-<p><code>[1] &quot;C:/Usuarios/TuUsuario/Documentos&quot;</code></p>
+<p><code>[1] "C:/Usuarios/TuUsuario/Documentos"</code></p>
 <p>Supongamos que mantengo todos mis archivos dentro de la carpeta de <code>Documentos</code>. Por ejemplo, asumamos que tengo dos proyectos de investigación. Uno es sobre peces rojos y otro de pájaros azules. Para cada uno de estos tendré archivos con datos, que mantengo separados en folders con la siguiente estructura:</p>
 <pre class="r"><code>C:/Usuarios/JC/Documentos/Proyectos:
 |
@@ -107,10 +109,10 @@ header:
 <li>Finalmente, hacemos click en el botón de <em>Create Project</em> y RStudio se actualizará.</li>
 </ol>
 <p>¿Tantos pasos y todo se ve igual? No, al poner más atención verás algunas diferencias. Por ejemplo, la esquina superior derecha ahora dice <code>PecesRojos</code>, indicándonos que estamos en ese proyecto. La pestaña de <code>Files</code> mostrará la carpeta donde tengo los datos y un projecto de R llamado <code>PecesRojos.Rproj</code>. Además, el pánel con el historial de operaciones está vacío, pues no hemos ejecutado código en este proyecto. Lo más importante es que si ahora ejecuto el comando para obtener el directorio (<code>getwd()</code>) obtengo:</p>
-<p><code>[1] &quot;C:/Usuarios/TuUsuario/Documentos/Proyectos/PecesRojos&quot;</code></p>
+<p><code>[1] "C:/Usuarios/TuUsuario/Documentos/Proyectos/PecesRojos"</code></p>
 <p>Esto puede parecer trivial, pero tener un directorio asociado a nuestro proyecto nos permite cargar y guardar datos, figuras y tablas más fácilmente sin tener que estar cambiando el directorio. Estos temás se cubrirán más adelante en detalle. Por ahora, procura usar proyectos de RStudio para administrár mejor tu trabajo y mantener todo más ordenado.</p>
 </div>
-<div id="distribucion-de-codigo" class="section level1">
+<div id="distribución-de-código" class="section level1">
 <h1>Distribución de código</h1>
 <p>Como vimos anteriormente, podemos ejecutar comandos directamente en la consola. Sin embargo, la mayoría de las veces realizaremos varias operaciones simultáneamente y necesitamos tener tódo el código en un mismo lugar. Esto nos ahorra tener que escribir todas las operaciones cada vez, pero también nos da un documento que podemos archivar para futuras referencias o compartir. Aquí exploraremos dos formas de hacerlo.</p>
 <div id="scripts" class="section level2">
@@ -156,7 +158,7 @@ sd(x = num)</code></pre>
 <p>Ese documento de <code>*.html</code> contiene todas las imágenes generadas, por lo que puedes compartirlo directamente con alguien que no necesariamente trabaja en R y esta persona podrá abrirlo en cualquier explorador web. En el 98% de los casos, yo prefiero trabajar en un documento de <code>rmarkdown</code> y recomiendo que tú hagas lo mismo. Más adelante aprenderemos más sobre <code>rmarkdown</code>, como cambiar formatos de salida y como aprovechar al máximo esta herramienta.</p>
 </div>
 </div>
-<div id="paquetes-en-r-base-stats-y-otros-mas" class="section level1">
+<div id="paquetes-en-r-base-stats-y-otros-más" class="section level1">
 <h1>Paquetes en R: <code>base</code>, <code>stats</code> y otros más</h1>
 <p>En la sección anterior utilizamos las funciones <code>mean()</code>, <code>median()</code>, <code>var()</code> y <code>sd()</code>. Como estas, hay muchas otras funciones directamente disponibles en R. Sin embargo, la activa comunidad de usuarios de R ha creado otras funciones con aplicaciones específicas. Estas funciones de distribuyen en paquetes, que pueden ser instalados. En el caso de las funciones anteriores, <code>mean()</code> pertenece al paquete <code>base</code>, mientras que <code>median()</code>, <code>var()</code> y <code>sd()</code> pertenecen al paquete <code>stats</code>. Todas las funciones pertenecen a un paquete. Para instalar un paquete nuevo (o la versión más actual de un paquete que ya tienes), utilizamos el comando <code>install.packages()</code>. Por ejemplo, copia, pega y ejecuta el siguiente código en tu consola:</p>
 <pre class="r"><code># Instalar paquetes que usaremos en siguientes posts
@@ -175,6 +177,6 @@ library(dplyr)</code></pre>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p><a href="https://www.youtube.com/watch?v=cpbtcsGE0OA">Video</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p><a href="https://www.youtube.com/watch?v=cpbtcsGE0OA">Video</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

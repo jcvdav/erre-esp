@@ -12,16 +12,17 @@ header:
   image: ""
 ---
 
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 <div id="TOC">
 <ul>
-<li><a href="#asignacion-de-valores">Asignación de valores</a></li>
+<li><a href="#asignación-de-valores">Asignación de valores</a></li>
 <li><a href="#atributos">Atributos</a></li>
 </ul>
 </div>
 
 <p>En el <a href="https://www.erre-esp.org/post/r-y-r-studio/">post anterior</a> hablamos sobre R y RStudio, con una introducción a los scripts y documentos de <code>rmarkdown</code> y el uso de proyectos de RStudio para mantener nuestro código ordenado. En este post nos adentraremos más en el uso de R. En concreto, aprenderemos como almacenar valores y datos en objetos en R.</p>
-<div id="asignacion-de-valores" class="section level1">
+<div id="asignación-de-valores" class="section level1">
 <h1>Asignación de valores</h1>
 <p>En la sección de <a href="https://www.villasenor-derbez.com/post/r-y-r-studio/#scripts">scripts</a> del post anterior habíamos almacenado valores en una variable llamada <code>num</code>. El código era similar a este:</p>
 <pre class="r"><code># Almacenar 10 números en la variable numeros
@@ -40,15 +41,15 @@ mis_datos_2 &lt;- 1
 ## 6: # Asignación incorrecta
 ## 7: 2datos
 ##     ^</code></pre>
-<p>La última línea resultará en un error, con R diciendo <code>Error: unexpected symbol in &quot;2datos&quot;</code>. Esto sucede porque la variable no comienza con una letra.</p>
+<p>La última línea resultará en un error, con R diciendo <code>Error: unexpected symbol in "2datos"</code>. Esto sucede porque la variable no comienza con una letra.</p>
 <p>R también distingue entre mayúsculas y minúsculas, por lo que es necesario nombrar y llamar nuestras variables de manera correcta. Por ejemplo, en las siguientes líneas de código la primera funciona y la segunda no. Sabes por qué sucede esto?</p>
 <pre class="r"><code>mis_datos</code></pre>
 <pre class="r"><code># Multiplicar una variable por 2
 mis_datos * 2</code></pre>
-<pre><code>## Error in eval(expr, envir, enclos): objeto &#39;mis_datos&#39; no encontrado</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;mis_datos&#39; not found</code></pre>
 <pre class="r"><code># Multiplicar una variable por 2
 Mis_datos * 2</code></pre>
-<pre><code>## Error in eval(expr, envir, enclos): objeto &#39;Mis_datos&#39; no encontrado</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &#39;Mis_datos&#39; not found</code></pre>
 </div>
 <div id="atributos" class="section level1">
 <h1>Atributos</h1>
